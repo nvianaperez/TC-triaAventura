@@ -60,3 +60,20 @@ function mostrarPagina(pagina) {
 }
 
 //atención al orden de mostrar página
+//probar de crear un array con 11 objetos, índices de 0 a 10, y que todas las respuestas sean los índices de la página donde voy
+
+/*
+historia = [
+    0 : { text: 'Funciona', s:5, n:1 },
+    1 : { text: '¿Lo haas tocado', s:6, n:2 },
+    2 : { text: '¿Nos dará problemas?', s:3, n:9 },
+    3 : { text: 'La has cagado', s:4, n:3 },
+    4 : { text: '¿Puedes culpar a otro?', s:10, n:3 },
+    5 : { text: 'No lo toques', s:10, n:10 },
+    6 : { text: '¡Burro!', s:7, n:7 },
+    7 : { text: '¿Alguien lo sabe?', s:3, n:8 },
+    8 : { text: '¡Escóndelo!', s:10, n:10 },
+    9 : { text: '¡Lánzalo!', s:10, n:10 },
+    10 : { text: 'Sin problemas', s:10, n:10 },
+]
+*/
