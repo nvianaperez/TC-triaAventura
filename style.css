@@ -1,0 +1,36 @@
+.home {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home p {
+    align-self: flex-end;
+    padding: 20px 40px;
+    font-size: 1.5rem;
+}
+.home h1 {
+    font-size: 2.5rem;
+}
+.main-text {
+    background-color: lightgrey;
+    margin-top: 20px;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons {
+    flex-flow: row wrap;
+}
+.button {
+    background-color:white;
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 1px solid black;
+    width: 150px;
+}
+.button:hover {
+    background-color: lightgray;
+}
