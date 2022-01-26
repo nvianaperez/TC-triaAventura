@@ -11,21 +11,37 @@
 </head>
 
 <body>
-    <header class="home">
-        <p></p>
-        <h1>Tria la teva aventura</h1>
-    </header>
+    <div class="container">
 
-    <section class="main-text">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, molestias.
-        </p>
-        <div class=buttons>
-            <button type="button" onclick="continuarSi()" class="button">SI</button>
-            <button type="button" onclick="continuarNo()" class="button">NO</button>
+        <div class="wrapper">
+            <header class="home">
+                <p></p>
+                <h1>Tria la teva aventura</h1>
+            </header>
+    
+            <section class="main-text">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, molestias.
+                </p>
+                <div class=buttons>
+                    <button type="button" onclick="continuarSi()" class="button">SI</button>
+                    <button type="button" onclick="continuarNo()" class="button">NO</button>
+                </div>
+            </section>
         </div>
 
-    </section>
+        <aside>
+            <article id="articleOne">
+                <h5>Nom del jugador:</h5>
+                <p></p>
+            </article>
+            <article id="articleTwo">
+                <h5>La teva aventura:</h5>
+                <p id="cami"></p>
+            </article>
+        </aside>
+
+    </div>
 
     <script src="script.js"></script>
 </body>

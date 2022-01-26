@@ -1,3 +1,25 @@
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 20px;
+}
+
+.wrapper {
+    flex: 3 1 auto;
+    background-color: lightgrey;
+}
+
+aside {
+    flex: 1 1 auto;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    padding: 20px;
+    background-color: lightgrey;
+}
+
+/****/
+
 .home {
     background-color: lightgrey;
     display: flex;
@@ -19,6 +41,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* max-width: 60vh; */
+
 }
 .buttons {
     flex-flow: row wrap;
@@ -33,4 +57,12 @@
 }
 .button:hover {
     background-color: lightgray;
+}
+
+#articleTwo {
+    padding-top: 50px;
+}
+
+#articleOne p {
+    text-align: center;
 }

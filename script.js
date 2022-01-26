@@ -1,3 +1,4 @@
+
 const historia = [
     {
         pregunta: "¿Funciona?",
@@ -26,7 +27,16 @@ const historia = [
     }
 ];
 
+//declaro variables
 let pagina = 0;
+let paginasArray=[];
+
+//crear variable usuari i recollir-la amb un prompt
+let user = prompt('Quin és el teu nom?', 'aventurer');
+//mostrar variable user al document
+let nom = document.querySelector('#articleOne p');
+nom.textContent = user;
+//crear variable text i mostrar-la al document amb el contingut
 let text = document.querySelector('.main-text p');
 text.textContent = historia[pagina].pregunta;
 
@@ -57,7 +67,15 @@ function continuarNo() {
 function mostrarPagina(pagina) {
     let numPagina = document.querySelector('.home p');
     numPagina.textContent = `Número de pàgina: ${pagina}`;
+    mostrarCami(pagina);
 }
+
+function mostrarCami(pagina) {
+    paginasArray.push(pagina);
+    let cami = document.querySelector('#cami');
+    cami.textContent = paginasArray;
+}
+
 
 //atención al orden de mostrar página
 //probar de crear un array con 11 objetos, índices de 0 a 10, y que todas las respuestas sean los índices de la página donde voy
